@@ -25,3 +25,177 @@
     .jumbotron .lang-logo img {
       max-width: 100%; }
 
+body {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.53846;
+    color: #404041;
+    background-color: #e5e5e5;
+}
+
+button.close{
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    z-index: 1000;
+    background: #fff;
+    right: -6px;
+    border: 1px solid #999;
+    top: -5px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    color: #999;
+    line-height: 15px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+}
+
+
+
+
+
+/* line 3, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npbuttons.scss */
+.btn, .page-orderConfirmationPage .order-complete-deal-block .media-link {
+  border: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 35px;
+  font-size: 13px;
+  line-height: 1.53846;
+  border-radius: 4px;
+  -moz-box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, 0.15);
+}
+/* line 7, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npmixins.scss */
+.btn:focus, .page-orderConfirmationPage .order-complete-deal-block .media-link:focus {
+  outline: none !important;
+}
+/* line 8, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npmixins.scss */
+.btn:active, .page-orderConfirmationPage .order-complete-deal-block .media-link:active {
+  -moz-box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+/* line 7, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npbuttons.scss */
+.btn-primary {
+  color: #ffffff;
+  background-color: #d55026;
+  border-color: #c23827;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Open Sans Bold", Helvetica, Arial, sans-serif;
+}
+/* line 11, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+  color: #ffffff;
+  background-color: #aa401e;
+  border-color: #8f291d;
+}
+/* line 21, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+  background-image: none;
+}
+/* line 29, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
+  background-color: #d55026;
+  border-color: #c23827;
+}
+/* line 40, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-primary .badge {
+  color: #d55026;
+  background-color: #ffffff;
+}
+/* line 18, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npmixins.scss */
+.btn-primary:hover {
+  background-color: #ee5d2e;
+}
+/* line 19, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npmixins.scss */
+.btn-primary:active {
+  background-color: #c23827;
+}
+
+/* line 11, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npbuttons.scss */
+.btn-secondary, .page-orderConfirmationPage .order-complete-deal-block .media-link {
+  color: #ffffff;
+  background-color: #005370;
+  border-color: #58585a;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Open Sans Bold", Helvetica, Arial, sans-serif;
+}
+/* line 11, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-secondary:hover, .page-orderConfirmationPage .order-complete-deal-block .media-link:hover, .btn-secondary:focus, .page-orderConfirmationPage .order-complete-deal-block .media-link:focus, .btn-secondary.focus, .page-orderConfirmationPage .order-complete-deal-block .focus.media-link, .btn-secondary:active, .page-orderConfirmationPage .order-complete-deal-block .media-link:active, .btn-secondary.active, .page-orderConfirmationPage .order-complete-deal-block .active.media-link, .open > .btn-secondary.dropdown-toggle, .page-orderConfirmationPage .order-complete-deal-block .open > .dropdown-toggle.media-link {
+  color: #ffffff;
+  background-color: #002d3d;
+  border-color: #3a3a3b;
+}
+/* line 21, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-secondary:active, .page-orderConfirmationPage .order-complete-deal-block .media-link:active, .btn-secondary.active, .page-orderConfirmationPage .order-complete-deal-block .active.media-link, .open > .btn-secondary.dropdown-toggle, .page-orderConfirmationPage .order-complete-deal-block .open > .dropdown-toggle.media-link {
+  background-image: none;
+}
+/* line 29, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-secondary.disabled, .page-orderConfirmationPage .order-complete-deal-block .disabled.media-link, .btn-secondary.disabled:hover, .page-orderConfirmationPage .order-complete-deal-block .disabled.media-link:hover, .btn-secondary.disabled:focus, .page-orderConfirmationPage .order-complete-deal-block .disabled.media-link:focus, .btn-secondary.disabled.focus, .page-orderConfirmationPage .order-complete-deal-block .disabled.focus.media-link, .btn-secondary.disabled:active, .page-orderConfirmationPage .order-complete-deal-block .disabled.media-link:active, .btn-secondary.disabled.active, .page-orderConfirmationPage .order-complete-deal-block .disabled.active.media-link, .btn-secondary[disabled], .page-orderConfirmationPage .order-complete-deal-block [disabled].media-link, .btn-secondary[disabled]:hover, .page-orderConfirmationPage .order-complete-deal-block [disabled].media-link:hover, .btn-secondary[disabled]:focus, .page-orderConfirmationPage .order-complete-deal-block [disabled].media-link:focus, .btn-secondary[disabled].focus, .page-orderConfirmationPage .order-complete-deal-block [disabled].focus.media-link, .btn-secondary[disabled]:active, .page-orderConfirmationPage .order-complete-deal-block [disabled].media-link:active, .btn-secondary[disabled].active, .page-orderConfirmationPage .order-complete-deal-block [disabled].active.media-link, fieldset[disabled] .btn-secondary, fieldset[disabled] .page-orderConfirmationPage .order-complete-deal-block .media-link, .page-orderConfirmationPage .order-complete-deal-block fieldset[disabled] .media-link, fieldset[disabled] .btn-secondary:hover, fieldset[disabled] .page-orderConfirmationPage .order-complete-deal-block .media-link:hover, .page-orderConfirmationPage .order-complete-deal-block fieldset[disabled] .media-link:hover, fieldset[disabled] .btn-secondary:focus, fieldset[disabled] .page-orderConfirmationPage .order-complete-deal-block .media-link:focus, .page-orderConfirmationPage .order-complete-deal-block fieldset[disabled] .media-link:focus, fieldset[disabled] .btn-secondary.focus, fieldset[disabled] .page-orderConfirmationPage .order-complete-deal-block .focus.media-link, .page-orderConfirmationPage .order-complete-deal-block fieldset[disabled] .focus.media-link, fieldset[disabled] .btn-secondary:active, fieldset[disabled] .page-orderConfirmationPage .order-complete-deal-block .media-link:active, .page-orderConfirmationPage .order-complete-deal-block fieldset[disabled] .media-link:active, fieldset[disabled] .btn-secondary.active, fieldset[disabled] .page-orderConfirmationPage .order-complete-deal-block .active.media-link, .page-orderConfirmationPage .order-complete-deal-block fieldset[disabled] .active.media-link {
+  background-color: #005370;
+  border-color: #58585a;
+}
+/* line 40, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-secondary .badge, .page-orderConfirmationPage .order-complete-deal-block .media-link .badge {
+  color: #005370;
+  background-color: #ffffff;
+}
+/* line 29, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npmixins.scss */
+.btn-secondary:hover, .page-orderConfirmationPage .order-complete-deal-block .media-link:hover {
+  background-color: #0594ca;
+}
+/* line 30, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npmixins.scss */
+.btn-secondary:active, .page-orderConfirmationPage .order-complete-deal-block .media-link:active {
+  background-color: #58585a;
+}
+
+/* line 15, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npbuttons.scss */
+.btn-tertiary {
+  color: #ffffff;
+  background-color: #999999;
+  border-color: #000000;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Open Sans Bold", Helvetica, Arial, sans-serif;
+}
+/* line 11, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-tertiary:hover, .btn-tertiary:focus, .btn-tertiary.focus, .btn-tertiary:active, .btn-tertiary.active, .open > .btn-tertiary.dropdown-toggle {
+  color: #ffffff;
+  background-color: gray;
+  border-color: black;
+}
+/* line 21, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-tertiary:active, .btn-tertiary.active, .open > .btn-tertiary.dropdown-toggle {
+  background-image: none;
+}
+/* line 29, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-tertiary.disabled, .btn-tertiary.disabled:hover, .btn-tertiary.disabled:focus, .btn-tertiary.disabled.focus, .btn-tertiary.disabled:active, .btn-tertiary.disabled.active, .btn-tertiary[disabled], .btn-tertiary[disabled]:hover, .btn-tertiary[disabled]:focus, .btn-tertiary[disabled].focus, .btn-tertiary[disabled]:active, .btn-tertiary[disabled].active, fieldset[disabled] .btn-tertiary, fieldset[disabled] .btn-tertiary:hover, fieldset[disabled] .btn-tertiary:focus, fieldset[disabled] .btn-tertiary.focus, fieldset[disabled] .btn-tertiary:active, fieldset[disabled] .btn-tertiary.active {
+  background-color: #999999;
+  border-color: #000000;
+}
+/* line 40, ../../../compass/desktop/theme-newpig/css/bootstrap/mixins/_buttons.scss */
+.btn-tertiary .badge {
+  color: #999999;
+  background-color: #ffffff;
+}
+/* line 40, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npmixins.scss */
+.btn-tertiary:hover {
+  background-color: #e5e5e5;
+}
+/* line 41, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npmixins.scss */
+.btn-tertiary:active {
+  background-color: #000000;
+}
