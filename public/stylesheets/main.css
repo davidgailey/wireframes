@@ -56,8 +56,14 @@ button.close{
 
 
 
+.modal-header h4 {
+    font-family: "Bitter",Georgia,"Times New Roman",Times,serif;
+}
 
 
+
+
+/** button css from newpig.css **/
 /* line 3, ../../../compass/desktop/theme-newpig/css/custom/overrides/_npbuttons.scss */
 .btn, .page-orderConfirmationPage .order-complete-deal-block .media-link {
   border: 0;
